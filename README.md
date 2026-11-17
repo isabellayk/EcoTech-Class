@@ -10,12 +10,13 @@ Promover a conscientização ambiental e estimular o descarte adequado de resíd
 
 ## 💡 Funcionalidades
 
-- **Página inicial:** apresentação do projeto e de sua proposta.
-- **Cadastro e login:** telas de acesso para os usuários.
-- **Painel do estudante:** acompanhamento de pontos, contribuições e ranking.
-- **Painel administrativo:** visualização de informações sobre estudantes, coletas e desempenho das turmas.
+- **Página inicial:** apresentação do projeto, dos materiais aceitos e da proposta de sustentabilidade.
+- **Cadastro e login integrados à API:** criação de contas para estudantes (com seleção de turma) e instituições, com autenticação persistida no navegador (`localStorage`).
+- **Controle de acesso e rotas protegidas:** bloqueio de navegação não autorizada, garantindo que estudantes acessem apenas seu painel e que o painel administrativo seja exclusivo da instituição.
+- **Painel do estudante:** acompanhamento em tempo real de pontos acumulados, peso total entregue, histórico individual de doações e posição no ranking da própria turma.
+- **Painel administrativo (CRUD completo):** gerenciamento das coletas de resíduos eletrônicos (registrar, listar, editar e excluir doações), além de indicadores gerais e ranking entre turmas.
 - **Tema claro e escuro:** opção de personalização da aparência da plataforma, com preferência salva no navegador.
-- **Gamificação:** incentivo à participação por meio de pontos e rankings.
+- **Gamificação:** incentivo à participação por meio de pontos e rankings dinâmicos calculados a partir das entregas registradas.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -24,16 +25,18 @@ Promover a conscientização ambiental e estimular o descarte adequado de resíd
 - JavaScript
 - Tailwind CSS
 - React Router DOM
+- MockAPI.io (API REST)
 - HTML5
 - CSS3
 
 ## 📁 Estrutura do projeto
 
-O projeto está organizado em páginas, componentes, hooks e arquivos de dados, buscando manter o código organizado e facilitar sua manutenção.
+O projeto está organizado em páginas, componentes, hooks, serviços e arquivos de dados, buscando manter o código limpo e facilitar sua manutenção.
 
-- `components/`: componentes reutilizáveis da interface.
-- `pages/`: páginas da plataforma.
+- `components/`: componentes reutilizáveis da interface e controle de rotas protegidas.
+- `pages/`: páginas da plataforma (Início, Login, Cadastro, Dashboard e Painel Administrativo).
 - `hooks/`: lógica reutilizável por meio de Hooks e Custom Hooks.
+- `services/`: integração centralizada com a API REST (`api.js`).
 - `data/`: informações utilizadas na apresentação dos conteúdos.
 - `assets/`: imagens e outros recursos visuais.
 
@@ -49,14 +52,14 @@ O projeto está organizado em páginas, componentes, hooks e arquivos de dados, 
 
 ## 🔗 Repositório GitHub
 
-[EcoTech Class — GitHub](https://github.com/GS-EcoTech-Class/EcoTech-Class)
+[EcoTech Class — GitHub](https://github.com/isabellayk/EcoTech-Class.git)
 
 ## ▶️ Como executar o projeto
 
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/GS-EcoTech-Class/EcoTech-Class.git
+   git clone https://github.com/isabellayk/EcoTech-Class.git
    ```
 
 2. Acesse a pasta do projeto:
