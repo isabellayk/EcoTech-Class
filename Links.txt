@@ -1,0 +1,10 @@
+--- Link GitHub ---
+https://github.com/isabellayk/EcoTech-Class.git
+
+--- Link Vercel ---
+https://eco-tech-class.vercel.app
+
+--- Login para Admin ---
+email: admin@ecotech.com
+
+senha: 123

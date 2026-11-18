@@ -93,4 +93,18 @@ O EcoTech Class está alinhado aos Objetivos de Desenvolvimento Sustentável (OD
 
 ---
 
+| Campo | Descrição |
+| :--- | :--- |
+| **Nome da CitizenTech** | EcoTech Class |
+| **Cidade e bairro** | São Paulo (SP) |
+| **Cidadão beneficiado** | Estudantes, famílias, moradores de periferias/baixa renda, catadores e comunidades próximas a áreas de descarte irregular |
+| **Problema, em uma frase** | O descarte incorreto e a falta de pontos de coleta acessíveis para lixo eletrônico em São Paulo geram graves riscos ambientais e sociais. |
+| **Como funciona** | Plataforma web e mobile que transforma escolas em pontos comunitários de coleta de e-lixo, registrando o peso dos descartes por meio de QR Code para gerar pontos, rankings e prêmios. |
+| **O que cada parte faz** | • **Plataforma:** gerencia cadastros, pesos, pontuações, relatórios e alertas;<br>• **Escolas:** organizam as campanhas e pontos de coleta;<br>• **Alunos e comunidade:** descartam os aparelhos;<br>• **Parceiros/cooperativas:** realizam o transporte, a reciclagem física e a emissão dos certificados. |
+| **Link do repositório** | https://github.com/isabellayk/EcoTech-Class.git |
+| **Indicador de impacto** | Estimativa de CO₂ evitado (metodologia ACV / EPA WARM) e volume em quilogramas (kg) de lixo eletrônico arrecadado e destinado corretamente. |
+| **ODS conectados** | ODS 4 (Educação de Qualidade), ODS 9 (Indústria, Inovação e Infraestrutura), ODS 11 (Cidades e Comunidades Sustentáveis) e ODS 13 (Ação contra a Mudança Global do Clima). |
+
+---
+
 **EcoTech Class — Pequenas atitudes, grandes transformações.**
